@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="sideBar">
+        <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard-variant</title><path d="M2,5V19H8V5H2M9,5V10H15V5H9M16,5V14H22V5H16M9,11V19H15V11H9M16,15V19H22V15H16Z" /></svg>Dashboard</div>
+        <ul class="nav">
+            <li class="iconButton">
+                <svg xmlns="http://www.w3.org/2000/svg" width = 20px; height = 20px; viewBox="0 0 24 24">
+                <title>home-circle</title>
+                <path d="M19.07,4.93C17.22,3 14.66,1.96 12,2C9.34,1.96 6.79,3 4.94,4.93C3,6.78 1.96,9.34 2,12C1.96,14.66 3,17.21 4.93,19.06C6.78,21 9.34,22.04 12,22C14.66,22.04 17.21,21 19.06,19.07C21,17.22 22.04,14.66 22,12C22.04,9.34 21,6.78 19.07,4.93M17,12V18H13.5V13H10.5V18H7V12H5L12,5L19.5,12H17Z" />
+                </svg> Home</li>
+            <li class="iconButton">
+                <svg xmlns="http://www.w3.org/2000/svg" width = 20px; height = 20px; viewBox="0 0 24 24">
+                    <title>account-circle</title>
+                    <path d="M12,19.2C9.5,19.2 7.29,17.92 6,16C6.03,14 10,12.9 12,12.9C14,12.9 17.97,14 18,16C16.71,17.92 14.5,19.2 12,19.2M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" />
+                </svg>
+                Profile
+            </li>
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chat</title><path d="M12,3C17.5,3 22,6.58 22,11C22,15.42 17.5,19 12,19C10.76,19 9.57,18.82 8.47,18.5C5.55,21 2,21 2,21C4.33,18.67 4.7,17.1 4.75,16.5C3.05,15.07 2,13.13 2,11C2,6.58 6.5,3 12,3Z" /></svg> Message</li>
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>history</title><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg> History</li>
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>format-list-bulleted-square</title><path d="M3,4H7V8H3V4M9,5V7H21V5H9M3,10H7V14H3V10M9,11V13H21V11H9M3,16H7V20H3V16M9,17V19H21V17H9" /></svg> Tasks</li>
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>account-group</title><path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" /></svg> Communities</li>
+        </ul>
+        <ul class="options">
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog</title><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg> Settings</li>
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>hand-heart-outline</title><path d="M16 3.23C16.71 2.41 17.61 2 18.7 2C19.61 2 20.37 2.33 21 3C21.63 3.67 21.96 4.43 22 5.3C22 6 21.67 6.81 21 7.76S19.68 9.5 19.03 10.15C18.38 10.79 17.37 11.74 16 13C14.61 11.74 13.59 10.79 12.94 10.15S11.63 8.71 10.97 7.76C10.31 6.81 10 6 10 5.3C10 4.39 10.32 3.63 10.97 3C11.62 2.37 12.4 2.04 13.31 2C14.38 2 15.27 2.41 16 3.23M22 19V20L14 22.5L7 20.56V22H1V11H8.97L15.13 13.3C16.25 13.72 17 14.8 17 16H19C20.66 16 22 17.34 22 19M5 20V13H3V20H5M19.9 18.57C19.74 18.24 19.39 18 19 18H13.65C13.11 18 12.58 17.92 12.07 17.75L9.69 16.96L10.32 15.06L12.7 15.85C13 15.95 15 16 15 16C15 15.63 14.77 15.3 14.43 15.17L8.61 13H7V18.5L13.97 20.41L19.9 18.57Z" /></svg> Support</li>
+            <li class="iconButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>shield-account-outline</title><path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11.22C19,12.92 18.5,14.65 17.65,16.17C16,14.94 13.26,14.5 12,14.5C10.74,14.5 8,14.94 6.35,16.17C5.5,14.65 5,12.92 5,11.22V6.3L12,3.18M12,6A3.5,3.5 0 0,0 8.5,9.5A3.5,3.5 0 0,0 12,13A3.5,3.5 0 0,0 15.5,9.5A3.5,3.5 0 0,0 12,6M12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8M12,16.5C13.57,16.5 15.64,17.11 16.53,17.84C15.29,19.38 13.7,20.55 12,21C10.3,20.55 8.71,19.38 7.47,17.84C8.37,17.11 10.43,16.5 12,16.5Z" /></svg> Privacy</li>
+        </ul>
+        
+    </div>
+    
+<div class="header">
+    <div class="topBar">
+        <form class="searchBar" action="/search" method="get">
+            <div class="searchButton">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <title>magnify</title>
+                <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+              </svg>
+            </div>
+            <input type="text" name="q" placeholder="Search...">
+          </form>
+          
+        
+        <div class="alerts"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><title>bell-ring</title><path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg></div>
+        <div class="avatar">
+        <div class="profilegraphic"><img src="sharko.svg" alt="A Shark"></div>
+        </div>
+        <div class="user">Bilbo Baggins</div>
+       
+    </div>
+    <div class="bottomBar">
+        <div class="avatarL">
+        <div class="profilegraphic"><img src="sharko.svg" alt="A Shark"></div>
+    </div>
+        <div class="greeting">
+            <p class="greet">Hey there,</p>
+            <p class="user">Bilbo Baggins (@mountdoom_enjoyer)</p>
+        </div>
+        <button class="ovalButton">New</button>
+        <button class="ovalButton">Upload</button>
+        <button class="ovalButton">Share</button>
+        
+    </div>
+</div>
+<div class="mainArea">
+    <div class="cardArea">
+        <h4 class="yourProjects">Your Projects</h4>
+        <div class="card">
+            <h4>Bestest Project</h4>
+            <p>This the best project.</p>
+            <div class="actionButtons">
+                <button class="favorite">StarIcon</button>
+                <button class="viewMore">ViewMore</button>
+                <button class="share">Share</button>
+            </div>
+        </div>        
+        <div class="card">
+            <h4>Less great project</h4>
+            <p>This the okiest project.</p>
+            <div class="actionButtons">
+                <button class="favorite">StarIcon</button>
+                <button class="viewMore">ViewMore</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
+        <div class="card">
+            <h4>Over my head app</h4>
+            <p>I dunno what's going on here</p>
+            <div class="actionButtons">
+                <button class="favorite">StarIcon</button>
+                <button class="viewMore">ViewMore</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
+        <div class="card">
+            <h4>EZmode app</h4>
+            <p>Bang this out when I need a win</p>
+            <div class="actionButtons">
+                <button class="favorite">StarIcon</button>
+                <button class="viewMore">ViewMore</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
+        <div class="card">
+            <h4>Personal Project</h4>
+            <p>What I work on for fun</p>
+            <div class="actionButtons">
+                <button class="favorite">StarIcon</button>
+                <button class="viewMore">ViewMore</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
+        <div class="card">
+            <h4>Side Hustle</h4>
+            <p>Side stuff that could pay the lighting</p>
+            <div class="actionButtons">
+                <button class="favorite">StarIcon</button>
+                <button class="viewMore">ViewMore</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="infoBar">
+        <div class="announcmentPanel">
+            <h4 class="announcments">Annoucements</h4>
+            <div class="aCard1">
+                <h5>Site Maintenance</h5>
+                <p>We're shutting things down for a bit till the heat is off.</p>
+            </div>
+            <div class="aCard2">
+                <h5>Community outreach day</h5>
+                <p>Taking requests for improvements</p>
+            </div>
+            <div class="aCard3">
+                <h5>Rent Increases Soon</h5>
+                <p>This is incase we decide to increase it, we told you, don't cry about it.</p>
+            </div>
+        </div>
+    
+    
+        <div class="trendPanel">
+            <h4 class="trending">Trending</h4>
+            <div class="tCard1">
+               <div class="icon1">TM</div>
+               <div class="handle">@Someguy</div>
+               <div class="title">Bum on the street</div>
+
+            </div>
+            <div class="tCard2">
+                <div class="icon3">TSLA</div>
+               <div class="handle">@ElonMusk</div>
+               <div class="title">Admired Shithead</div>
+            </div>
+            <div class="tCard3">
+                <div class="icon3">$</div>
+                <div class="handle">@gold</div>
+                <div class="title">Money Maker</div></div>
+        </div>
+    </div>
+    
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
