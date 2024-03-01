@@ -1,6 +1,7 @@
 body {
     width: 80vw;
     height: 100vh;
+    font-family:  'Open Sans', 'Roboto','Lato', sans-serif;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 6fr;
@@ -142,7 +143,6 @@ body {
     border-color: #0284c7;
     background-color:#f97316 ;
     margin-right: 5px;
-     
 }
 
 .avatarL{
@@ -170,8 +170,7 @@ body {
 }
 
 .greeting {
-    font-size: 20px;
-    
+    font-size: 20px;    
     margin-right: auto;
     margin-left: 0px;
 }
@@ -183,26 +182,77 @@ body {
     border-radius: 20px;
     padding: 30px;
     background-color: white;
+    display: grid;
+    padding-bottom: 0px;
 }
 
+.announcmentPanel, .trendPanel{
+    display: grid;
+    margin-top: 20px;
+    gap: 0px;
+    height: fit-content;
+    margin-right: 20px;
+}
 
+.rightPanelBg {
+    background-color: white;
+    height: fit-content;
+    border-radius: 10px;
+}
 
+.infoBar .announcmentPanel .rightPanelBg .aCard:nth-child(3) {
+    box-shadow: 0 0 0 ;
+}
 
+.infoBar .trendPanel .rightPanelBg .tCard:nth-child(3) {
+    box-shadow: 0 0 0 ;
+}
 
+.announcments {
+    margin-bottom: 40px;
+}
 
+.aCard , .tCard { 
+    padding: 10px;
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;    
+    box-shadow: 0 1px 0 black;
+}
 
+.tCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;  
+}
+
+.card svg {
+    width: 35px;
+}
+
+.tCard svg {
+    width: 35px;
+}
+
+.trender {
+    margin-right: auto;   
+}
+
+.actionButtons {
+    display: flex;
+    margin-left: auto;
+    gap: 8px;
+}
 
 ul {
     list-style: none;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 li {
     margin-bottom: 10px;
     position: relative;
-    line-height: 1.5;
-    
+    line-height: 1.5;    
 }
 
 
